@@ -29,14 +29,14 @@ function Skills() {
               <MdVerified className='skill_details-icon' />
               <div>
                 <h4>JavaScript</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill_details">
               <MdVerified className='skill_details-icon' />
               <div>
                 <h4>ReactJS</h4>
-                <small className="text-light">Experienced</small>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
             <article className="skill_details">

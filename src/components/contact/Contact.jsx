@@ -37,14 +37,15 @@ function Contact() {
             <AiOutlineInstagram className='contact_option-icon'/>
             <h4>Instagram</h4>
             <h5>@clusterDuckJS</h5>
-            <a href="www.instagram/clusterduckjs" rel="noreferrer" target='_blank'>Send a message</a>
+            <a href="https://www.instagram.com/clusterduckjs/" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
           <article className="contact_option">
             <AiOutlineWhatsApp className='contact_option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+91 7907969115</h5>
-            <a href="wa.me/+917907969115" rel="noreferrer" target='_blank'>Send a message</a>
+            <a href="https://wa.me/+917907969115" rel="noreferrer" target='_blank'>Send a message</a>
           </article>
+          
         </div>
         {/* END OF CONTACT OPTIONS */}
         <form ref={form} onSubmit={sendEmail}>

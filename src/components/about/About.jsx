@@ -1,9 +1,9 @@
 import React from 'react'
 import './about.css'
-import AboutMe from '../../assets/me-about.jpg'
-import {FaAward} from 'react-icons/fa'
-import {HiOutlineUsers} from 'react-icons/hi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import AboutMe from '../../assets/me-about.jpeg'
+// import {FaAward} from 'react-icons/fa'
+// import {HiOutlineUsers} from 'react-icons/hi'
+// import {VscFolderLibrary} from 'react-icons/vsc'
 
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
         </div>
         
         <div className="about_content">
-            <div className="about_cards">
+            {/* <div className="about_cards">
                 <article className="about_card">
                     <FaAward className='about_icon' />
                     <h5>Experience</h5>
@@ -36,11 +36,11 @@ function About() {
                     <h5>Projects</h5>
                     <small>3 Projects Completed</small>
                 </article>
-            </div>
+            </div> */}
                 <p>
                 As a self-taught ReactJS developer, I have developed strong skills in web app development and am passionate about creating intuitive user experiences for web projects. I have continued to invest my time to build an extensive knowledge of the ReactJS framework and can quickly adapt existing code for new projects. I strive to stay up to date with industry trends and best practices through continual research and am dedicated to ensuring my work is high quality, secure, and reliable. I believe my expertise makes me an asset to any development team, so I'm eager to explore new opportunities that would benefit from the knowledge I have acquired.
                 </p>
-                <a href="" className="btn btn-primary">Let's Talk</a>
+                <a href="#contact" className="btn btn-primary">Let's Talk</a>
         </div>
         
        </div>

@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 5rem;
+    padding-top: 2rem;
     overflow: hidden;
 }
 .header_container {
@@ -18,10 +18,11 @@ header {
 
 /* ====================SOCIALS================= */
 .header_socials {
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 0.8rem;
+    gap: 0.5rem;
     position: absolute;
     left: 0;
     bottom: 3rem;
